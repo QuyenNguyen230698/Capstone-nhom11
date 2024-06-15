@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+/* Top Header */
+
+.top-header {
+    background-color: #0D36AE;
+    padding: 14px 15px;
+}
+.header_left ul li,
+.header_right ul li {
+    display: inline;
+    color: white;
+}
+.header_left ul li a {
+    color: white;
+    margin-right: 10px;
+}
