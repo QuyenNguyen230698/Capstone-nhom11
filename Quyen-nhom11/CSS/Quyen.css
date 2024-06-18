@@ -1101,4 +1101,141 @@ p {
 
   /* Customer Feedback  */
 
+  .sub-test q::before {
+    font-size: 50px;
+    color: #ff6e65;
+    font-family: initial;
+    line-height: .8;
+    padding-top: 8px;
+    display: inline-block;
+    content: '';
+  }
+  
+  .testimonials_grid span.fa {
+    font-size: 22px;
+    color: #ff6e65;
+    line-height: .8;
+    display: inline-block;
+  }
+  
+  .cutomer-main-cont .testimonials_grid {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
+    padding: 2rem;
+  }
+  
+  .cutomer-main-cont .testi-img-res img {
+    border-radius: 50%;
+  }
+  
+  .cutomer-main-cont p.sub-test span {
+    color: #e2e2e2;
+    font-size: 28px;
+    font-style: italic;
+    margin-right: 10px;
+  }
+  
+  .cutomer-main-cont .testi_grid p {
+    font-size: 13px;
+    color: #707070;
+  }
+  
+  .cutomer-main-cont .sub-author-con {
+    grid-template-columns: .3fr 1fr;
+    align-items: center;
+    grid-gap: 5px;
+    margin-top: 1.5em;
+  }
+  
+  .cutomer-main-cont .testi_grid h5 {
+    font-weight: 600;
+    line-height: 16px;
+  }
+.title-heading-w3 {
+    max-width: 700px;
+}
+.d-grid {
+    display: grid;
+}
+.dark .testimonials_grid{
+    background: #161c2d;
+}
+.dark .sub-test {
+    color: #B7B7B7;
+}
+.dark .testi_grid h5 {
+    color: #fff;
+}
+.dark .testi_grid p {
+    color: #B7B7B7;
+}
 
+/* Ours Team */
+
+.team-block-single {
+    box-shadow: 0 20px 62px var(--box-shadow-color);
+    padding: 10px;
+    background: var(--bg-color-2);
+    border-radius: 8px;
+  }
+  
+  .team .team-grids {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .team .social-icons-section a.fac,
+  .team .social-icons-section a.twitter,
+  .team .social-icons-section a.google {
+    background: #fff;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
+  .team .social-icons-section a span {
+    color: var(--primary-color);
+    font-size: 14px;
+    line-height: 28px;
+  }
+  
+  .team .social-icons-section a:hover {
+    opacity: .8;
+  }
+  
+  .team .team-info {
+    position: absolute;
+    bottom: -227px;
+    margin: 0;
+    background: rgb(8 8 8 / 29%);
+    padding: 20px 0;
+    transition: .5s all;
+    -moz-transition: .5s all;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .team .team-block-single:hover div.team-info {
+    bottom: 0;
+  }
+  
+  h5.member a {
+    font-weight: 600;
+    color: var(--heading-color);
+  }
+  
+  .team .team-block-single:hover h5.member a {
+    color: var(--secondary-color);
+  }
+  
+  .team .team-block-single h5.member.active a:hover {
+    color: var(--heading-color);
+  }
+  
+  .team .team-grids img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
