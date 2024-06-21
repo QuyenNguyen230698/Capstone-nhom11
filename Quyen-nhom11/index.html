@@ -31,7 +31,7 @@
     <section class="top-header">
       <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between">
-          <div class="header_left">
+          <div class="header_left top-headers">
             <ul>
               <li class="mr-2">
                 <a href="#"> Have any question ? </a>
@@ -46,7 +46,7 @@
               </li>
             </ul>
           </div>
-          <div class="header_right">
+          <div class="header_right top-headers">
             <ul>
               <li>
                 <a href="#">
@@ -85,36 +85,87 @@
               <span>Studious</span>
             </a>
           </h1>
-          <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-lg-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-              <li class="nav-item dropdown child">
+          <button
+            class="navbar-toggler collapsed bg-gradient"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+            <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul id="primary-menu" class="navbar-nav ml-lg-auto">
+              <li
+                id="menu-item-10"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-10 nav-item active"
+              >
                 <a
+                  href="https://wp.w3layouts.com/studious/"
+                  class="nav-link active"
+                  >Home</a
+                >
+              </li>
+              <li
+                id="menu-item-17"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17 nav-item"
+              >
+                <a
+                  href="https://wp.w3layouts.com/studious/about-page/"
+                  class="nav-link"
+                  >About Us</a
+                >
+              </li>
+              <li
+                id="menu-item-21"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-21 nav-item dropdown"
+              >
+                <a
+                  href="#"
                   class="nav-link dropdown-toggle"
                   data-toggle="dropdown"
-                  href="#"
-                  tabindex="-1"
+                  id="navbar-dropdown-menu-link-21"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  >pages</a
+                  >Pages</a
                 >
                 <div
                   class="sub-menu dropdown-menu"
                   aria-labelledby="navbar-dropdown-menu-link-21"
                 >
-                  <a href="#" class="dropdown-item">Blog Posts</a>
-                  <a href="#" class="dropdown-item">404 Page</a>
-                  <a href="#" class="dropdown-item">Landing Page</a>
-                  <a href="#" class="dropdown-item">Elements Page</a>
+                  <a
+                    href="https://wp.w3layouts.com/studious/blog-posts/"
+                    class="dropdown-item"
+                    id="menu-item-11"
+                    >Blog Posts</a
+                  ><a
+                    href="https://wp.w3layouts.com/studious/404-page/"
+                    class="dropdown-item"
+                    id="menu-item-30"
+                    >404 page</a
+                  ><a
+                    href="https://wp.w3layouts.com/studious/single-landing-page/"
+                    class="dropdown-item"
+                    id="menu-item-34"
+                    >Landing page</a
+                  ><a
+                    href="https://wp.w3layouts.com/studious/elements-page/"
+                    class="dropdown-item"
+                    id="menu-item-38"
+                    >Elements page</a
+                  >
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+              <li
+                id="menu-item-22"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22 nav-item"
+              >
+                <a
+                  href="https://wp.w3layouts.com/studious/contact-page/"
+                  class="nav-link"
                   >Contact</a
                 >
               </li>
@@ -123,7 +174,7 @@
               <!-- search right -->
               <div class="search-right ml-lg-3 HeaderSearch">
                 <form
-                  action=""
+                  action="https://wp.w3layouts.com/studious/"
                   method="GET"
                   class="search-box position-relative"
                 >
@@ -146,6 +197,7 @@
               <!--//search-right-->
             </ul>
           </div>
+          <!--//search-right light-dark-->
           <div class="cont-ser-position w3DarkLight">
             <nav class="navigation">
               <div class="theme-switch-wrapper">
