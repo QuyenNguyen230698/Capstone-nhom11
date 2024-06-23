@@ -1,0 +1,21 @@
+Task division:
+1. Quyen: 
+-Theme Light dark 
+-Top Header 
+-Header Logo navbar 
+-Carousel 
+-Feature
+-Welcome section
+-Home block
+-Stats
+-Customer Feedback,
+-Ours team 
+-Deploy Web
+
+2.An:
+-About section
+-Footer
+-Move top
+-Template
+-Video YTB.
+
